@@ -1,0 +1,5 @@
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-text">Task list for: {{userName}}</span>
+  <a class="btn btn-primary" *ngIf="isAuthorized" (click)="logout()">Logout</a>
+</nav>
+<router-outlet></router-outlet>
