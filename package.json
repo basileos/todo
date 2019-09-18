@@ -4,7 +4,7 @@
   "description": "ToDo application",
   "main": "index.js",
   "scripts": {
-    "build": "cd src/client && ng build --prod",
+    "build": "cd src/client && npm i && ng build --prod",
     "start": "node src/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
